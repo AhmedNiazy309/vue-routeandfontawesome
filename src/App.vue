@@ -12,6 +12,7 @@
       <router-link to="/test/id">Test(two)</router-link>|
       <router-link to="/signout">signout</router-link>|
       <router-link to="/fish">fish</router-link>|
+      <router-link to="/data">data</router-link>|
     </div>
     <router-view />
   </div>

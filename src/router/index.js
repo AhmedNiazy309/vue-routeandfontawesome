@@ -16,6 +16,7 @@ import emails from "../views/emails.vue";
 import signin from "../views/signin.vue";
 import signout from "../views/signout.vue";
 import fish from "../views/fish.vue";
+import data from "../views/data.vue";
 
 Vue.use(VueRouter);
 
@@ -116,6 +117,12 @@ const router = new VueRouter({
     name: "fish",
     component: fish,
   },
+  {
+    path: "/data",
+    name: "data",
+    component: data,
+  },
+
 ],
 base: process.env.BASE_URL,
 scrollBehavior(to, from, savedPosition) {
